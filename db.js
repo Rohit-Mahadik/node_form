@@ -1,9 +1,9 @@
 const momgoose=require("mongoose")
 require("dotenv").config();
 // const mongoURL="mongodb://localhost:27017/data"
-const mongoURL= process.env.DB_URL_LOCAL
+// const mongoURL= process.env.DB_URL_LOCAL
 
-// const mongoURL= process.env.DB_URL;
+const mongoURL= process.env.DB_URL;
 
 momgoose.connect(mongoURL,{
     useNewUrlParser:true,
