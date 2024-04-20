@@ -48,7 +48,7 @@ router.post("/signIn",async (req,res)=>{
     //if user doesn't exist or password doesn't match throw error;
 
     if(!user || !(await user.comparePassword(password))){
-        res.write('<script>window.location.href="http://localhost:3000/signIn.html";window.alert("Error: Invalid Username Or Password");</script>')
+        res.write('<script>window.location.href="https://node-form-1.onrender.com/signIn.html";window.alert("Error: Invalid Username Or Password");</script>')
     }else{
         res.write('<script>window.location.href="https://media.tenor.com/wDmy7nNY6ZcAAAAM/god-coding.gif";</script>')
     }
@@ -85,7 +85,7 @@ router.post("/update",async (req,res)=>{
         if(!response){
             res.write('<script>window.location.href="http://localhost:3000/forgetPasword.html";window.alert("Error: Person Not Found");</script>')
         }else{
-            res.write('<script>window.location.href="http://localhost:3000/signIn.html";window.alert("Success: Password Updated Successfully");</script>')
+            res.write('<script>window.location.href="https://node-form-1.onrender.com/signIn.html";window.alert("Success: Password Updated Successfully");</script>')
         }  
     }
     catch(err){
