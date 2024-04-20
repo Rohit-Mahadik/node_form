@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="box">
+        <img src="https://newmibridges.michigan.gov/resource/1682162237000/ISD_Icons/landing-page/group-3.svg" alt="">
+    </div>
+
+    <form action="user/register" method="post">
+        <input type="text" id="name" name="name" placeholder="Name" required>
+        <input type="text" id="age" name="age" placeholder="Age" required>
+        <input type="email" id="email" name="email" placeholder="Email" required>
+        <input type="text" id="mobile" name="mobile" placeholder="Mobile-No" required>
+        <input type="password" id="password" name="password" placeholder="Password" required>
+        <input type="password" id="confirm_password" name="confirm_password" placeholder="Confirm Password" required>
+        <button type="submit" id="subBtn" name="Register">Sign Up</button>
+        <div class="link">
+            <a href="./signIn.html" id="signIn">Sign In</a>
+        </div>
+    </form>
+
+
+   
+</body>
+<script>
+    const logBtn=document.querySelector("#logbtn")
+
+    logBtn.addEventListener("click",()=>{
+        console.log('click')
+    })
+</script>
+
+</html>

@@ -1,0 +1,88 @@
+.box{
+    /* border: 2px solid red; */
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.box img{
+    width: 100vw;
+    height: 100vh;
+}
+
+form{
+    background-color: #fff;
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+form input{
+    width: 250px;
+    height: 20px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+form button{
+    width: 200px;
+    height: 30px;
+    margin: 20px auto;
+    background-color: rgb(73, 168, 206);
+    border-radius: 100px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    border: none;
+}
+
+form button:hover{
+    background-color: rgb(113, 173, 197);
+}
+
+.link{
+    /* border: 2px solid red; */
+    margin: 0 auto;
+}
+
+ #signIn{ 
+    display: inline-block;
+    /* border: 2px solid red; */
+    width: 200px;
+    height: 30px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(73, 168, 206);
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: 600;
+    color: white;
+    border-radius: 15px;
+}
+
+
+.form2{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.form2 input{
+    margin-top: 2px;
+}
+
+.form2 button{
+    /* border: 2px solid red; */
+    width: 200px;
+    height: 30px;
+    margin: 0px auto;
+}
